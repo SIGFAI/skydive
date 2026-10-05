@@ -4211,10 +4211,11 @@
   "status": "beta",
   "issues": "https://github.com/apinanaivot/Skydive/issues",
   "notes": [
-    "You need Skyrim Special Edition / Anniversary Edition on PC (tested on 1.7.104) and Just Cause 2 installed (Steam, GOG or any version). Install SKSE64 and Address Library for SKSE Plugins first (links above).",
-    "One step after Install, once: open your Skyrim folder, then Data\\Skydive Installer, and run Skydive-Installer.exe. It finds Just Cause 2 and Skyrim (Browse... if a line is red), leave \"Install the files into\" as filled in (Skyrim's Data folder) and click Install; it says Done after a minute or two. It builds the animations, parachute, hook and sounds from your own Just Cause 2: nothing from Just Cause 2 is downloaded. Without this step the mod does nothing.",
-    "Start Skyrim with skse64_loader.exe. G fires the grapple (iGrappleKey in Data\\SKSE\\Plugins\\Skydive.ini), Jump in the air opens the parachute, fall from high up to skydive, F10 opens the options.",
-    "The mod is downloaded from the author's own release and installed into Skyrim's Data folder; Restore removes it. Restore does not remove what Skydive-Installer.exe built: after Restore, delete Data\\meshes\\jc2mech, Data\\textures\\jc2mech and Data\\sound\\fx\\jc2mech by hand.",
+    "How it works: you play Skyrim with Just Cause 2's grappling hook, parachute and skydiving, using Rico's animations, canopy, hook and sounds built on your PC from your own copy of Just Cause 2.",
+    "Once after Install: open Skyrim's Data\\Skydive Installer folder and run Skydive-Installer.exe. Fix any red line with Browse..., leave \"Install the files into\" as is, click Install and wait for Done (a minute or two). Without this step the mod does nothing. Then start Skyrim with skse64_loader.exe.",
+    "Keys: G fires the grapple (iGrappleKey in Data\\SKSE\\Plugins\\Skydive.ini), Jump in the air opens or closes the parachute, fall from high up to skydive, move keys steer. On a wall Jump pushes off and Sneak lets go. F10 opens the options (stamina costs, grapple or parachute off, volume).",
+    "You need Skyrim Special Edition / Anniversary Edition (tested on 1.7.104) and Just Cause 2 installed (any store). Install SKSE64 and Address Library for SKSE Plugins yourself, for your Skyrim runtime.",
+    "Restore does not remove what Skydive-Installer.exe built: delete Data\\meshes\\jc2mech, Data\\textures\\jc2mech and Data\\sound\\fx\\jc2mech by hand afterwards.",
     "Beta, first release: report bugs to the author on the upstream issue tracker."
   ]
 }
