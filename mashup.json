@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "name": "Skydive",
   "tagline": "Just Cause 2's grappling hook, parachute and skydiving in Skyrim, with Rico's animations, canopy and sounds built from your own copy of Just Cause 2 (SKSE plugin).",
+  "how_to_play": [
+    "Fly around Skyrim with Just Cause 2's grappling hook, parachute and skydiving.",
+    "Press G to fire the grapple; press Jump in the air to open or close the parachute, and steer with the move keys.",
+    "Fall from high up to skydive; on a wall, Jump pushes off and Sneak lets go.",
+    "Press F10 to open the options (stamina costs, grapple or parachute off, volume).",
+    "Press Play and load any save to start."
+  ],
   "kind": "mashup",
   "games": [
     {
