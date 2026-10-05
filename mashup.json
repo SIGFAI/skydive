@@ -4,11 +4,11 @@
   "name": "Skydive",
   "tagline": "Just Cause 2's grappling hook, parachute and skydiving in Skyrim, with Rico's animations, canopy and sounds built from your own copy of Just Cause 2 (SKSE plugin).",
   "how_to_play": [
-    "Fly around Skyrim with Just Cause 2's grappling hook, parachute and skydiving.",
-    "Press G to fire the grapple; press Jump in the air to open or close the parachute, and steer with the move keys.",
-    "Fall from high up to skydive; on a wall, Jump pushes off and Sneak lets go.",
-    "Press F10 to open the options (stamina costs, grapple or parachute off, volume).",
-    "Press Play and load any save to start."
+    "Fly around Skyrim with Just Cause 2's grappling hook, parachute and skydiving, with Rico's animations, canopy, hook and sounds.",
+    "After the one-time setup below, start Skyrim with skse64_loader.exe.",
+    "G fires the grapple (iGrappleKey in Data\\SKSE\\Plugins\\Skydive.ini), Jump in the air opens or closes the parachute, move keys steer.",
+    "Fall from high up to skydive. On a wall Jump pushes off and Sneak lets go.",
+    "F10 opens the options (stamina costs, grapple or parachute off, volume)."
   ],
   "kind": "mashup",
   "games": [
@@ -4218,9 +4218,7 @@
   "status": "beta",
   "issues": "https://github.com/apinanaivot/Skydive/issues",
   "notes": [
-    "How it works: you play Skyrim with Just Cause 2's grappling hook, parachute and skydiving, using Rico's animations, canopy, hook and sounds built on your PC from your own copy of Just Cause 2.",
-    "Once after Install: open Skyrim's Data\\Skydive Installer folder and run Skydive-Installer.exe. Fix any red line with Browse..., leave \"Install the files into\" as is, click Install and wait for Done (a minute or two). Without this step the mod does nothing. Then start Skyrim with skse64_loader.exe.",
-    "Keys: G fires the grapple (iGrappleKey in Data\\SKSE\\Plugins\\Skydive.ini), Jump in the air opens or closes the parachute, fall from high up to skydive, move keys steer. On a wall Jump pushes off and Sneak lets go. F10 opens the options (stamina costs, grapple or parachute off, volume).",
+    "Once after Install: open Skyrim's Data\\Skydive Installer folder and run Skydive-Installer.exe. Fix any red line with Browse..., leave \"Install the files into\" as is, click Install and wait for Done (a minute or two). It builds Rico's files from your Just Cause 2; without it the mod does nothing.",
     "You need Skyrim Special Edition / Anniversary Edition (tested on 1.7.104) and Just Cause 2 installed (any store). Install SKSE64 and Address Library for SKSE Plugins yourself, for your Skyrim runtime.",
     "Restore does not remove what Skydive-Installer.exe built: delete Data\\meshes\\jc2mech, Data\\textures\\jc2mech and Data\\sound\\fx\\jc2mech by hand afterwards.",
     "Beta, first release: report bugs to the author on the upstream issue tracker."
