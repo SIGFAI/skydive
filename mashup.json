@@ -46,6 +46,15 @@
       "note": "the file for your Skyrim runtime (\"All in one (Anniversary Edition)\" for 1.6 / 1.7)"
     }
   ],
+  "requires_files": [
+    {
+      "id": "skse64",
+      "game": "skyrim",
+      "path": "{game}/skse64_loader.exe",
+      "message": "Install SKSE64 for your Skyrim version first",
+      "page": "https://skse.silverlock.org/"
+    }
+  ],
   "install": [
     {
       "game": "skyrim",
